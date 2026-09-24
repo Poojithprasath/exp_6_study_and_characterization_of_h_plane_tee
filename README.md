@@ -53,9 +53,22 @@ Because of the symmetry of the tee, when power enters the auxiliary arm and the 
 
 ## Observation
 
-*(Include your own table relevant to the experiment.)*
+<img width="1098" height="153" alt="image" src="https://github.com/user-attachments/assets/92a8fc13-4c60-4e91-aace-b5fe58a0df66" />
+<img width="1092" height="135" alt="image" src="https://github.com/user-attachments/assets/fe1d9517-5603-443c-8a44-d4565971cd3c" />
 
----
+## FORMULA
+1. Power division ratio (Port 3 → Port 1, Port 2) = Pin – Pout = 10 log10 (Pin / Pout) dB (ideally ≈ 3 dB at each arm)
+2.  Isolation between collinear arms = 10 log10 (P1 / P2) dB
+
+## MODEL GRAPH AND ACTUAL GRAPH
+<img width="1131" height="415" alt="image" src="https://github.com/user-attachments/assets/58a82770-61c1-4176-98c7-e396b6e9ddb7" />
+
+
+## CALCULATION
+1. Power at Port 1 (from Port 3) = 0.0 – (–3.3) = 3.3 dB down.
+2. Power at Port 2 (from Port 3) = 0.0 – (–3.6) = 3.6 dB down.
+3.  Since both arms are within about 0.3 dB of each other and close to the ideal 3 dB point, the H–arm divides power essentially equally between the two collinear arms.
+4.   Isolation (Port 1 → Port 2, with Port 3 matched) = 0.0 – (–25.0) = 25.0 dB.
 
 ## Precautions
 
